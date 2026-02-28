@@ -1,15 +1,15 @@
 [English](../README.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Tiếng Việt](README.vi.md) · [中文 (简体)](README.zh-Hans.md) · [中文（繁體）](README.zh-Hant.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lachlanchen/lachlanchen/main/logos/banner.png" alt="LazyingArt banner" />
-</p>
+[![LazyingArt banner](https://github.com/lachlanchen/lachlanchen/raw/main/figs/banner.png)](https://github.com/lachlanchen/lachlanchen/blob/main/figs/banner.png)
 
 <div align="center">
 
 # **omi**
 
-Découvrez Omi, le wearable IA open source leader mondial, qui capture les conversations, fournit des résumés, des actions à effectuer et exécute des actions pour vous. Connectez simplement Omi à votre appareil mobile et profitez de transcriptions automatiques de haute qualité pour vos réunions, discussions et mémos vocaux, où que vous soyez.
+_IA portable pour des réunions et conversations instantanées : capture, résume et agit, les mains libres._
+
+Découvrez Omi, la solution open source IA portable la plus avancée au monde pour capter les conversations, générer des résumés, créer des actions à exécuter et réaliser des actions à votre place. Connectez simplement Omi à votre appareil mobile et profitez de transcriptions automatiques de haute qualité pour réunions, conversations et notes vocales, où que vous soyez.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/834d3fdb-31b5-4f22-ae35-da3d2b9a8f59" alt="Omi" width="49%" />
@@ -24,64 +24,82 @@ Découvrez Omi, le wearable IA open source leader mondial, qui capture les conve
 [![GitHub Repo stars](https://img.shields.io/github/stars/BasedHardware/Omi?color=f5b301)](https://github.com/BasedHardware/Omi)
 [![Monorepo](https://img.shields.io/badge/Repo-Monorepo-2ea44f)](https://github.com/BasedHardware/Omi)
 [![Docs](https://img.shields.io/badge/docs-omi.me-0ea5e9)](https://docs.omi.me/)
+[![GitHub release](https://img.shields.io/github/v/release/BasedHardware/Omi?color=0ea5e9&style=flat-square)](https://github.com/BasedHardware/Omi/releases)
+[![GitHub issues](https://img.shields.io/github/issues/BasedHardware/Omi?color=ef4444&style=flat-square)](https://github.com/BasedHardware/Omi/issues)
+[![Contributors](https://img.shields.io/github/contributors/BasedHardware/Omi?color=14b8a6&style=flat-square)](https://github.com/BasedHardware/Omi/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/BasedHardware/Omi?color=0ea5e9&style=flat-square)](https://github.com/BasedHardware/Omi/network/members)
+[![GitHub last commit](https://img.shields.io/github/last-commit/BasedHardware/Omi?color=8b5cf6&style=flat-square)](https://github.com/BasedHardware/Omi/commits/main)
 
-<h3>
-
-[Site](https://omi.me/) | [Télécharger](https://omi.me/download) | [Docs](https://docs.omi.me/) | [Acheter le omi Dev Kit](https://www.omi.me/products/omi-dev-kit-2) | [Acheter le Omi Glass Dev Kit](https://www.omi.me/glass)
-
-</h3>
+[![Website](https://img.shields.io/badge/omi.me-Website-0ea5e9?style=for-the-badge)](https://omi.me/)
+[![Download](https://img.shields.io/badge/omi.me-Download-14b8a6?style=for-the-badge)](https://omi.me/download)
+[![Docs](https://img.shields.io/badge/docs-omi.me-6366f1?style=for-the-badge)](https://docs.omi.me/)
+[![Dev%20Kit](https://img.shields.io/badge/Buy-Omi%20Dev%20Kit-0ea5e9?style=for-the-badge)](https://www.omi.me/products/omi-dev-kit-2)
+[![Glass%20Kit](https://img.shields.io/badge/Buy-Omi%20Glass-8b5cf6?style=for-the-badge)](https://www.omi.me/glass)
 
 </div>
 
+## ⚡ Liens rapides
+
+| Ressource | Lien |
+| --- | --- |
+| 🌐 Site du projet | [omi.me](https://omi.me/) |
+| ⬇️ Centre de téléchargement | [omi.me/download](https://omi.me/download) |
+| 📚 Documentation | [docs.omi.me](https://docs.omi.me/) |
+| 🛠️ Omi Dev Kit | [Acheter Omi Dev Kit](https://www.omi.me/products/omi-dev-kit-2) |
+| 👓 Omi Glass Dev Kit | [Acheter Omi Glass](https://www.omi.me/glass) |
+
+---
+
 ## Table des matières
 
-- [Aperçu](#aperçu)
-- [Fonctionnalités](#fonctionnalités)
-- [Démarrage rapide (2 min)](#démarrage-rapide-2-min)
-- [Structure du projet](#structure-du-projet)
-- [Prérequis](#prérequis)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Configuration](#configuration)
-- [Exemples](#exemples)
-- [Notes de développement](#notes-de-développement)
-- [Dépannage](#dépannage)
-- [Feuille de route](#feuille-de-route)
-- [Documentation](#documentation)
-- [Contributions](#contributions)
-- [Support et communauté](#support-et-communauté)
-- [Licence](#licence)
+- [📌 Aperçu](#aperçu)
+- [⚡️ Fonctionnalités](#fonctionnalités)
+- [🚀 Démarrage rapide (2 min)](#démarrage-rapide-2-min)
+- [🏗️ Structure du projet](#structure-du-projet)
+- [🧰 Prérequis](#prérequis)
+- [🛠️ Installation](#installation)
+- [🧪 Utilisation](#utilisation)
+- [⚙️ Configuration](#configuration)
+- [🧾 Exemples](#exemples)
+- [🧭 Notes de développement](#notes-de-développement)
+- [🐞 Dépannage](#dépannage)
+- [🗺️ Feuille de route](#feuille-de-route)
+- [📚 Documentation](#documentation)
+- [🤝 Contribution](#contribution)
+- [❤️ Support](#%E2%9D%A4%EF%B8%8F-support)
+- [💬 Contact & Communauté](#contact--communauté)
+- [📜 Licence](#licence)
 
 ## Aperçu
 
-Ce dépôt est le monorepo de l’écosystème open source Omi.
+Ce dépôt est le monorepo open-source de l’écosystème Omi.
 
-| Inclut | Détails |
+| Inclus | Détails |
 | --- | --- |
-| Hardware/Firmware | Firmware du wearable Omi + ressources matérielles |
-| Omi Glass | Firmware/matériel/app Omi Glass |
-| Mobile | App compagnon Flutter |
-| Backend | Services backend FastAPI |
-| Web | Frontend principal Omi + Personas |
-| Écosystème | Écosystème de plugins/intégrations |
-| SDKs | Python, React Native, Swift |
-| Infra Agent | Serveur MCP |
-| Docs | Source de la documentation |
+| 🧠 Omi Hardware | Firmware + ressources matérielles Omi |
+| 🥽 Omi Glass | Firmware/matériel/application Omi Glass |
+| 📱 Mobile | Application compagnon Flutter |
+| 🌐 Backend | Services backend FastAPI |
+| 🕸️ Web | Frontend principal Omi + Personas |
+| 🧩 Écosystème | Plugins/intégrations |
+| 📦 SDKs | Python, React Native, Swift |
+| 🔗 Agent Infra | Serveur MCP |
+| 📘 Docs | Source de documentation |
 
-Le quick-start du README racine est volontairement orienté onboarding utilisateur/développeur. La configuration complète spécifique à chaque composant se trouve dans les README de chaque sous-projet et dans la documentation Omi.
+Le README racine se concentre sur l’onboarding et le flux de travail quotidien des développeurs. Les configurations complètes de chaque composant et les notes opérationnelles détaillées se trouvent dans les README de chaque sous-projet et dans `docs/`.
 
 ## Fonctionnalités
 
-- ⚡ Flows de traitement audio IA et de transcription en temps réel
-- 🔋 Workflows d’appareil wearable Bluetooth basse consommation
-- 🧩 Stack logicielle open source couvrant firmware, apps, backend, web et SDKs
-- 🎙️ UX pensée d’abord pour le wearable pour les réunions, discussions et mémos vocaux
+- ⚡ Traitement audio IA et transcriptions en temps réel
+- 🔋 Flux de travail pour appareil portable Bluetooth basse consommation
+- 🧩 Stack logicielle open-source couvrant firmware, applications, backend, web et SDKs
+- 🎙️ UX pensée pour l’usage portable : réunions, chats et notes vocales
 - 🔗 Écosystème webhook/app pour déclencher des actions personnalisées
-- 🛠️ Architecture plugin/intégration pour étendre les capacités
+- 🛠️ Architecture de plugins et d’intégrations pour étendre les fonctionnalités
 
 ## Démarrage rapide (2 min)
 
-### 1) Télécharger l’app omi
+### 1) Télécharger l’application Omi
 
 [<img src='https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg' alt='Get it on Google Play' height="50px" width="180px">](https://play.google.com/store/apps/details?id=com.friend.ios)
 [<img src='https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg' alt="Download on the App Store" height="50px" width="180px">](https://apps.apple.com/us/app/friend-ai-wearable/id6502156163)
@@ -89,68 +107,76 @@ Le quick-start du README racine est volontairement orienté onboarding utilisate
 
 ### 2) Créer un webhook
 
-Créez un webhook via [webhook.site](https://webhook.site) puis copiez cette URL.
+Créez un webhook avec [webhook.site](https://webhook.site) puis copiez cette URL.
 
 <img src="https://github.com/user-attachments/assets/083a6ec4-4694-4c7a-843a-4a1a0c254453" width="500">
 
-### 3) Dans l’app omi
+### 3) Dans l’application Omi
 
-| Explore => Create an App                                                                                  | Select Capability                                                                                       | Paste Webhook URL                                                                                         | Install App                                                                                             |
-| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/31809b81-7de2-4381-b5fc-5c9714972211" width="200"> | <img src="https://github.com/user-attachments/assets/59cfbe8e-7e3b-437f-81f7-25eb50ccdd7d" width="200"> | <img src="https://github.com/user-attachments/assets/3d864ee8-555f-4ded-b4db-87ff78128323" width = "200"> | <img src="https://github.com/user-attachments/assets/58cf6da6-e245-415e-92e7-dc1f46583cfc" width="200"> |
+| Explorer => Créer une app | Choisir une capacité | Coller l’URL du webhook | Installer l’app |
+| --- | --- | --- | --- |
+| <img src="https://github.com/user-attachments/assets/31809b81-7de2-4381-b5fc-5c9714972211" width="200"> | <img src="https://github.com/user-attachments/assets/59cfbe8e-7e3b-437f-81f7-25eb50ccdd7d" width="200"> | <img src="https://github.com/user-attachments/assets/3d864ee8-555f-4ded-b4db-87ff78128323" width="200"> | <img src="https://github.com/user-attachments/assets/58cf6da6-e245-415e-92e7-dc1f46583cfc" width="200"> |
 
-### 4) Parlez puis vérifiez les événements
+### 4) Parler et vérifier les événements
 
-Commencez à parler, vous verrez la transcription en temps réel sur [webhook.site](https://webhook.site).
+Commencez à parler : les transcriptions arrivent en temps réel sur [webhook.site](https://webhook.site).
 
 ## Structure du projet
 
 ### Dans ce dépôt
 
-- [omi device](https://github.com/BasedHardware/omi/tree/main/omi)
-- [omi glass](https://github.com/BasedHardware/omi/tree/main/omiGlass)
-- [omi app](https://github.com/BasedHardware/omi/tree/main/app)
-- [ai personas (web)](https://github.com/BasedHardware/omi/tree/main/web/personas-open-source)
-- [SDKs](./sdks)
+| Composant | Rôle |
+| --- | --- |
+| [omi device](https://github.com/BasedHardware/omi/tree/main/omi) | Matériel + firmware Omi |
+| [omi glass](https://github.com/BasedHardware/omi/tree/main/omiGlass) | Matériel + firmware Omi Glass |
+| [omi app](https://github.com/BasedHardware/omi/tree/main/app) | Application compagnon Flutter |
+| [ai personas (web)](https://github.com/BasedHardware/omi/tree/main/web/personas-open-source) | Application web Personas |
+| [SDKs](./sdks) | SDKs Python, React Native et Swift |
 
-Note: d’anciennes références peuvent mentionner `personas-open-source` à la racine du dépôt ; dans ce dépôt, il se trouve actuellement sous `web/personas-open-source`.
+Note : certaines références plus anciennes peuvent mentionner `personas-open-source` à la racine du dépôt ; dans ce dépôt, il se trouve désormais sous `web/personas-open-source`.
 
-### Vue d’ensemble
+### Vue d’ensemble haut niveau
 
 ```text
 .
-├── app/                     # Flutter companion app
-├── backend/                 # FastAPI backend
-├── docs/                    # Mintlify docs
-├── mcp/                     # MCP server for memories/conversations
-├── omi/                     # Omi hardware + firmware
-├── omiGlass/                # Omi Glass hardware + firmware + app
-├── plugins/                 # Integrations/apps/plugins
+├── app/                     # Application compagnon Flutter
+├── backend/                 # Backend FastAPI
+├── docs/                    # Documentation Mintlify
+├── mcp/                     # Serveur MCP pour mémoires/conversations
+├── omi/                     # Matériel + firmware Omi
+├── omiGlass/                # Matériel + firmware + app Omi Glass
+├── plugins/                 # Intégrations/apps/plugins
 ├── sdks/                    # python / react-native / swift
-├── web/frontend/            # Main Next.js frontend
-├── web/personas-open-source/# Personas web app
-└── scripts/                 # tooling (format hooks, OTA helper)
+├── web/frontend/            # Frontend Next.js principal
+├── web/personas-open-source/ # Application web Personas
+├── scripts/                 # outils (format hooks, OTA helper)
+└── i18n/                    # Contenu multilingue et traductions
 ```
 
 ## Prérequis
 
-Utilisez les exigences pertinentes pour le composant ciblé.
+Utilisez les prérequis adaptés au composant cible.
 
-| Tooling | Utilisé pour |
+| Outil | Utilisé pour |
 | --- | --- |
-| Git | Contrôle de version |
-| Node.js 18+ and npm | web, personas, certains workflows de plugins |
+| Git | Gestion de version |
+| Node.js 18+ et npm | web, personas, certains flux de plugin |
 | Python 3.10+ | backend, MCP, SDK Python |
-| Flutter SDK | app mobile |
+| Flutter SDK | application mobile |
 | Xcode/CocoaPods | développement iOS |
 | Android Studio + Android SDK | développement Android |
-| `ffmpeg` + `opus` | workflows backend/audio |
-| Docker (optional) | déploiements MCP/web |
-| Google Cloud + Firebase | workflows backend/app |
+| `ffmpeg` + `opus` | flux audio/backend |
+| Docker (optionnel) | déploiements MCP/web |
+| Google Cloud + Firebase | flux backend/app |
+
+### Hypothèses de configuration
+
+- Certaines commandes dépendent de credentials externes (Firebase, OpenAI/Deepgram/fournisseurs d’API), généralement configurés par composant via son modèle `.env`. Consultez le README du composant concerné si des valeurs sont absentes de la documentation locale.
+- Si vous ne travaillez que sur une surface, installez et build uniquement ce composant pour accélérer l’itération.
 
 ## Installation
 
-Comme il s’agit d’un monorepo, l’installation se fait par composant.
+Ce dépôt étant un monorepo, installez par composant.
 
 ### Cloner le dépôt
 
@@ -164,7 +190,7 @@ cd omi
 ```bash
 cd app
 bash setup.sh ios
-# or
+# ou
 bash setup.sh android
 
 flutter run --flavor dev
@@ -188,7 +214,7 @@ cp .env.template .env.local
 npm run dev
 ```
 
-### App web Personas (Next.js)
+### Application web Personas (Next.js)
 
 ```bash
 cd web/personas-open-source
@@ -200,7 +226,7 @@ npm run dev
 
 ```bash
 cd mcp
-# See mcp/README.md for Docker-based Claude Desktop setup
+# Consultez mcp/README.md pour la configuration de Claude Desktop basée sur Docker
 ```
 
 ### SDKs
@@ -208,59 +234,59 @@ cd mcp
 ```bash
 cd sdks/python && pip install -e .
 cd ../react-native && npm install
-# Swift package is exposed via root Package.swift as `omi-lib`
+# Le package Swift est exposé via le Package.swift racine en tant que `omi-lib`
 ```
 
 ## Utilisation
 
-### Parcours utilisateur dans l’app
+### Flux côté utilisateur final
 
-1. Installez l’app Omi via les liens store ci-dessus.
-2. Associez/utilisez votre appareil Omi.
-3. Créez une app via le flux quick-start webhook.
-4. Parlez et observez les événements de transcription en temps réel sur votre endpoint webhook.
+1. Installez l’application Omi via les liens de téléchargement ci-dessus.
+2. Associez et utilisez votre appareil Omi.
+3. Créez une app via le flux de démarrage rapide webhook.
+4. Parlez, puis observez les événements de transcription en temps réel sur votre endpoint webhook.
 
 ### Backend local avec l’app
 
-1. Démarrez le backend localement sur le port `8000`.
+1. Démarrez le backend local sur le port `8000`.
 2. Exposez le backend local via un domaine statique ngrok.
-3. Définissez `BASE_API_URL` de l’app vers votre URL ngrok.
-4. Utilisez l’app Omi avec votre backend local.
+3. Renseignez `BASE_API_URL` dans l’app avec votre URL ngrok.
+4. Utilisez l’application Omi avec votre backend local.
 
-### Workflows SDK
+### Flux de travail des SDK
 
-- SDK Python : scannez les appareils BLE avec `omi-scan`, décodez les paquets Opus et transcrivez via Deepgram.
-- SDK React Native : connectez-vous, streamez des octets audio, inspectez codec/batterie.
-- SDK Swift (`omi-lib`) : scan/connexion/transcription avec les APIs `OmiManager`.
+- SDK Python : recherchez les appareils BLE avec `omi-scan`, décodez les paquets Opus et transcrivez via Deepgram.
+- SDK React Native : connectez-vous, stream d’octets audio, inspectez codec et batterie.
+- SDK Swift (`omi-lib`) : scan/connect/transcription via les API `OmiManager`.
 
 ## Configuration
 
-La configuration est distribuée par composant. Utilisez le template/readme de chaque sous-projet comme source de vérité.
+La configuration est répartie par composant. Utilisez le template/README de chaque sous-projet comme source de vérité.
 
-- `backend/.env.template` -> clés API backend/configuration infrastructure
+- `backend/.env.template` -> clés d’API et config d’infrastructure backend
 - `web/frontend/.env.template` -> variables d’environnement du frontend web
-- Valeurs d’environnement `app` -> configuration d’exécution de l’app mobile
-- Variables d’environnement `mcp` -> `OMI_API_KEY` et `OMI_API_BASE_URL` optionnelle
-- Clés spécifiques SDK :
+- valeurs d’environnement `app` -> configuration runtime de l’application mobile
+- variables d’environnement `mcp` -> `OMI_API_KEY` et `OMI_API_BASE_URL` optionnel
+- clés spécifiques aux SDK :
   - Le SDK Python utilise `DEEPGRAM_API_KEY`
-  - Personas utilise des variables d’environnement Firebase/OpenRouter/RapidAPI/Mixpanel
+  - Personas utilise les variables Firebase/OpenRouter/RapidAPI/Mixpanel
 
-Si vous ne savez pas quelles variables sont requises, conservez les valeurs par défaut et suivez d’abord le README spécifique de ce composant avant de supprimer/modifier des valeurs.
+Si vous n’êtes pas certain des variables requises, conservez les valeurs par défaut et suivez le README propre au composant avant de modifier ou supprimer des valeurs.
 
 ## Exemples
 
-### Quick-start webhook (depuis le flux racine)
+### Démarrage rapide webhook (depuis le flux racine)
 
-Utilisez [webhook.site](https://webhook.site), installez votre app personnalisée dans Omi, puis vérifiez que les événements de transcription apparaissent en temps réel.
+Utilisez [webhook.site](https://webhook.site), installez votre application personnalisée dans Omi, puis vérifiez que les événements de transcription apparaissent en temps réel.
 
-### Commande de lancement backend
+### Commande backend
 
 ```bash
 cd backend
 uvicorn main:app --reload --env-file .env
 ```
 
-### Commande de lancement frontend
+### Commande frontend
 
 ```bash
 cd web/frontend
@@ -276,61 +302,67 @@ omi-scan
 
 ## Notes de développement
 
-- L’automatisation CI/CD et de déploiement est configurée dans :
+- Les workflows CI/CD et l’automatisation de déploiement sont configurés dans :
   - `.github/workflows/`
   - `codemagic.yaml`
-- Le script racine `scripts/pre-commit` formate les fichiers indexés pour :
+- Le script racine `scripts/pre-commit` formate les fichiers mis en staging pour :
   - Dart dans `app/`
   - Python dans `backend/`
   - C/C++ dans `omi/` et `omiGlass/`
-- Le `Package.swift` à la racine du dépôt publie le package Swift `omi-lib` depuis `sdks/swift`.
-- Le dossier `i18n/` existe et est réservé aux variantes multilingues de README/contenu.
+- Le `Package.swift` à la racine publie le package Swift `omi-lib` depuis `sdks/swift`.
+- Le dossier `i18n/` existe et est réservé aux variantes README/contenus multilingues.
 
 ## Dépannage
 
-- Problème de modèle/réseau backend en local : si vous rencontrez le problème connu de téléchargement SSL, appliquez le contournement `ssl` documenté dans `backend/README.md`, puis réessayez.
-- L’app ne peut pas joindre le backend local : vérifiez que le domaine ngrok est actif et que `BASE_API_URL` pointe vers cette URL publique exacte.
-- Problèmes de découverte BLE : confirmez que les autorisations Bluetooth de la plateforme sont accordées (Terminal/Xcode/app Android selon le cas).
-- Incohérence de chemins dans d’anciennes docs : certains documents/textes de référence hérités peuvent afficher des chemins obsolètes (par exemple le chemin racine `personas-open-source` ou la casse `omi/OmiGlass`). Dans ce dépôt, utilisez la structure de dossiers actuelle ci-dessus.
+- Problème de modèle/réseau en local : si vous rencontrez le problème SSL connu du téléchargement, appliquez le contournement `ssl` documenté dans `backend/README.md`, puis réessayez.
+- L’application ne peut pas joindre le backend local : vérifiez que le domaine ngrok fonctionne et que `BASE_API_URL` pointe vers l’URL publique exacte.
+- Problèmes de découverte BLE : vérifiez que les permissions Bluetooth sont accordées (Terminal/Xcode/app Android selon le cas).
+- Problèmes de chemins dans les docs anciens : certaines références historiques peuvent afficher des chemins obsolètes (par exemple `personas-open-source` à la racine ou la casse `omi/OmiGlass`). Utilisez la structure actuelle indiquée plus haut.
 
 ## Feuille de route
 
 Cette section reflète les signaux actuels du dépôt et peut évoluer :
 
-- Continuer à améliorer les workflows firmware/hardware pour Omi et OmiGlass
-- Étendre l’écosystème app/plugin et les outils développeur
-- Améliorer les expériences web pour memories/apps/personas
+- Continuer d’améliorer les flux firmware/matériel pour Omi et OmiGlass
+- Étendre l’écosystème app/plugins et les outils de développement
+- Améliorer les expériences web pour mémoires/apps/personas
 - Renforcer les intégrations MCP + SDK pour les écosystèmes d’agents externes
 - Ajouter et maintenir des variantes README multilingues dans `i18n/`
 
 ## Documentation
 
 - [Introduction](https://docs.omi.me/)
-- [omi App setup](https://docs.omi.me/doc/developer/AppSetup)
-- [Buying Guide](https://docs.omi.me/doc/assembly/Buying_Guide/)
-- [Build the device](https://docs.omi.me/doc/assembly/Build_the_device/)
-- [Install firmware](https://docs.omi.me/doc/get_started/Flash_device/)
-- [Create your own app in 1 minute](https://docs.omi.me/doc/developer/apps/Introduction)
+- [Configuration de l’app Omi](https://docs.omi.me/doc/developer/AppSetup)
+- [Guide d’achat](https://docs.omi.me/doc/assembly/Buying_Guide/)
+- [Assembler l’appareil](https://docs.omi.me/doc/assembly/Build_the_device/)
+- [Installer le firmware](https://docs.omi.me/doc/get_started/Flash_device/)
+- [Créer votre propre app en 1 minute](https://docs.omi.me/doc/developer/apps/Introduction)
 
-## Contributions
+## Contribution
 
 - Consultez notre [guide de contribution](https://docs.omi.me/doc/developer/Contribution/).
-- Gagnez en contribuant ! Consultez les [bounties rémunérées 🤑](https://omi.me/bounties).
+- Gagnez de l’argent en contribuant ! Consultez les [bounties rémunérés 🤑](https://omi.me/bounties).
 - Consultez les [issues en cours](https://github.com/BasedHardware/Omi/issues).
 - Rejoignez le [Discord](http://discord.omi.me).
-- Développez vos propres [Plugins/Integrations](https://docs.omi.me/doc/developer/apps/Introduction).
+- Construisez vos propres [plugins/integrations](https://docs.omi.me/doc/developer/apps/Introduction).
 
-## Support et communauté
+## ❤️ Support
+
+| Donate | PayPal | Stripe |
+| --- | --- | --- |
+| [![Donate](https://camo.githubusercontent.com/24a4914f0b42c6f435f9e101621f1e52535b02c225764b2f6cc99416926004b7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d4c617a79696e674172742d3045413545393f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f2d6669266c6f676f436f6c6f723d7768697465)](https://chat.lazying.art/donate) | [![PayPal](https://camo.githubusercontent.com/d0f57e8b016517a4b06961b24d0ca87d62fdba16e18bbdb6aba28e978dc0ea21/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50617950616c2d526f6e677a686f754368656e2d3030343537433f7374796c653d666f722d7468652d6261646765266c6f676f3d70617970616c266c6f676f436f6c6f723d7768697465)](https://paypal.me/RongzhouChen) | [![Stripe](https://camo.githubusercontent.com/1152dfe04b6943afe3a8d2953676749603fb9f95e24088c92c97a01a897b4942/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374726970652d446f6e6174652d3633354246463f7374796c653d666f722d7468652d6261646765266c6f676f3d737472697065266c6f676f436f6c6f723d7768697465)](https://buy.stripe.com/aFadR8gIaflgfQV6T4fw400) |
+
+## Contact & Communauté
 
 - Site principal : [omi.me](https://omi.me/)
 - Téléchargements : [omi.me/download](https://omi.me/download)
-- Docs : [docs.omi.me](https://docs.omi.me/)
-- Chat communauté : [discord.omi.me](http://discord.omi.me)
-- Suivre les mises à jour : [x.com/kodjima33](https://x.com/kodjima33)
-- Matériel/dev kits :
-  - [Acheter le omi Dev Kit](https://www.omi.me/products/omi-dev-kit-2)
-  - [Acheter le Omi Glass Dev Kit](https://www.omi.me/glass)
+- Documentation : [docs.omi.me](https://docs.omi.me/)
+- Chat communautaire : [discord.omi.me](http://discord.omi.me)
+- Suivre les nouveautés : [x.com/kodjima33](https://x.com/kodjima33)
+- Kits matériels :
+  - [Acheter Omi Dev Kit](https://www.omi.me/products/omi-dev-kit-2)
+  - [Acheter Omi Glass Dev Kit](https://www.omi.me/glass)
 
 ## Licence
 
-Omi est disponible sous <a href="https://github.com/BasedHardware/omi/blob/main/LICENSE">MIT License</a>
+Omi est disponible sous <a href="https://github.com/BasedHardware/omi/blob/main/LICENSE">licence MIT</a>

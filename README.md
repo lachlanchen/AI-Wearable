@@ -1,13 +1,13 @@
 [English](README.md) · [العربية](i18n/README.ar.md) · [Español](i18n/README.es.md) · [Français](i18n/README.fr.md) · [日本語](i18n/README.ja.md) · [한국어](i18n/README.ko.md) · [Tiếng Việt](i18n/README.vi.md) · [中文 (简体)](i18n/README.zh-Hans.md) · [中文（繁體）](i18n/README.zh-Hant.md) · [Deutsch](i18n/README.de.md) · [Русский](i18n/README.ru.md)
 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lachlanchen/lachlanchen/main/logos/banner.png" alt="LazyingArt banner" />
-</p>
+[![LazyingArt banner](https://github.com/lachlanchen/lachlanchen/raw/main/figs/banner.png)](https://github.com/lachlanchen/lachlanchen/blob/main/figs/banner.png)
 
 <div align="center">
 
 # **omi**
+
+_AI-powered wearable for instant meetings and chats: capture, summarize, and act—hands-free._
 
 Meet Omi, the world’s leading open-source AI wearable that captures conversations, gives summaries, action items and does actions for you. Simply connect Omi to your mobile device and enjoy automatic, high-quality transcriptions of meetings, chats, and voice memos wherever you are.
 
@@ -24,33 +24,51 @@ Meet Omi, the world’s leading open-source AI wearable that captures conversati
 [![GitHub Repo stars](https://img.shields.io/github/stars/BasedHardware/Omi?color=f5b301)](https://github.com/BasedHardware/Omi)
 [![Monorepo](https://img.shields.io/badge/Repo-Monorepo-2ea44f)](https://github.com/BasedHardware/Omi)
 [![Docs](https://img.shields.io/badge/docs-omi.me-0ea5e9)](https://docs.omi.me/)
+[![GitHub release](https://img.shields.io/github/v/release/BasedHardware/Omi?color=0ea5e9&style=flat-square)](https://github.com/BasedHardware/Omi/releases)
+[![GitHub issues](https://img.shields.io/github/issues/BasedHardware/Omi?color=ef4444&style=flat-square)](https://github.com/BasedHardware/Omi/issues)
+[![Contributors](https://img.shields.io/github/contributors/BasedHardware/Omi?color=14b8a6&style=flat-square)](https://github.com/BasedHardware/Omi/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/BasedHardware/Omi?color=0ea5e9&style=flat-square)](https://github.com/BasedHardware/Omi/network/members)
+[![GitHub last commit](https://img.shields.io/github/last-commit/BasedHardware/Omi?color=8b5cf6&style=flat-square)](https://github.com/BasedHardware/Omi/commits/main)
 
-<h3>
-
-[Site](https://omi.me/) | [Download](https://omi.me/download) | [Docs](https://docs.omi.me/) | [Buy omi Dev Kit](https://www.omi.me/products/omi-dev-kit-2) | [Buy Omi Glass Dev Kit](https://www.omi.me/glass)
-
-</h3>
+[![Website](https://img.shields.io/badge/omi.me-Website-0ea5e9?style=for-the-badge)](https://omi.me/)
+[![Download](https://img.shields.io/badge/omi.me-Download-14b8a6?style=for-the-badge)](https://omi.me/download)
+[![Docs](https://img.shields.io/badge/docs-omi.me-6366f1?style=for-the-badge)](https://docs.omi.me/)
+[![Dev%20Kit](https://img.shields.io/badge/Buy-Omi%20Dev%20Kit-0ea5e9?style=for-the-badge)](https://www.omi.me/products/omi-dev-kit-2)
+[![Glass%20Kit](https://img.shields.io/badge/Buy-Omi%20Glass-8b5cf6?style=for-the-badge)](https://www.omi.me/glass)
 
 </div>
 
+## ⚡ Quick Links
+
+| Resource | Link |
+| --- | --- |
+| 🌐 Project site | [omi.me](https://omi.me/) |
+| ⬇️ Download center | [omi.me/download](https://omi.me/download) |
+| 📚 Documentation | [docs.omi.me](https://docs.omi.me/) |
+| 🛠️ Omi Dev Kit | [Buy Omi Dev Kit](https://www.omi.me/products/omi-dev-kit-2) |
+| 👓 Omi Glass Dev Kit | [Buy Omi Glass](https://www.omi.me/glass) |
+
+---
+
 ## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Quick Start (2 min)](#quick-start-2-min)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Examples](#examples)
-- [Development Notes](#development-notes)
-- [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
-- [Documentation](#documentation)
-- [Contributions](#contributions)
-- [Support and Community](#support-and-community)
-- [License](#license)
+- [📌 Overview](#overview)
+- [⚡️ Features](#features)
+- [🚀 Quick Start (2 min)](#quick-start-2-min)
+- [🏗️ Project Structure](#project-structure)
+- [🧰 Prerequisites](#prerequisites)
+- [🛠️ Installation](#installation)
+- [🧪 Usage](#usage)
+- [⚙️ Configuration](#configuration)
+- [🧾 Examples](#examples)
+- [🧭 Development Notes](#development-notes)
+- [🐞 Troubleshooting](#troubleshooting)
+- [🗺️ Roadmap](#roadmap)
+- [📚 Documentation](#documentation)
+- [🤝 Contribution](#contribution)
+- [❤️ Support](#%E2%9D%A4%EF%B8%8F-support)
+- [💬 Contact & Community](#contact--community)
+- [📜 License](#license)
 
 ## Overview
 
@@ -58,17 +76,17 @@ This repository is the open-source Omi ecosystem monorepo.
 
 | Includes | Details |
 | --- | --- |
-| Hardware/Firmware | Omi wearable firmware + hardware assets |
-| Omi Glass | Omi Glass firmware/hardware/app |
-| Mobile | Flutter companion app |
-| Backend | FastAPI backend services |
-| Web | Main Omi frontend + Personas |
-| Ecosystem | Plugins/integrations ecosystem |
-| SDKs | Python, React Native, Swift |
-| Agent Infra | MCP server |
-| Docs | Documentation source |
+| 🧠 Omi Hardware | Omi wearable firmware + hardware assets |
+| 🥽 Omi Glass | Omi Glass firmware/hardware/app |
+| 📱 Mobile | Flutter companion app |
+| 🌐 Backend | FastAPI backend services |
+| 🕸️ Web | Main Omi frontend + Personas |
+| 🧩 Ecosystem | Plugins/integrations ecosystem |
+| 📦 SDKs | Python, React Native, Swift |
+| 🔗 Agent Infra | MCP server |
+| 📘 Docs | Documentation source |
 
-The root README quick-start is intentionally end-user/developer-onboarding focused. Full component-specific setup lives in each subproject README and the Omi docs.
+The root README is focused on onboarding and day-to-day developer workflow. Full component-specific setup and deeper operational notes live in each subproject README and `docs/`.
 
 ## Features
 
@@ -77,7 +95,7 @@ The root README quick-start is intentionally end-user/developer-onboarding focus
 - 🧩 Open-source software stack across firmware, apps, backend, web, and SDKs
 - 🎙️ Wearable-first UX for meetings, chats, and voice memos
 - 🔗 Webhook/app ecosystem for triggering custom actions
-- 🛠️ Plugin/integration architecture for extending capabilities
+- 🛠️ Plugin and integration architecture for extending capabilities
 
 ## Quick Start (2 min)
 
@@ -97,7 +115,7 @@ Create webhook using [webhook.site](https://webhook.site) and copy this URL.
 
 | Explore => Create an App                                                                                  | Select Capability                                                                                       | Paste Webhook URL                                                                                         | Install App                                                                                             |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/31809b81-7de2-4381-b5fc-5c9714972211" width="200"> | <img src="https://github.com/user-attachments/assets/59cfbe8e-7e3b-437f-81f7-25eb50ccdd7d" width="200"> | <img src="https://github.com/user-attachments/assets/3d864ee8-555f-4ded-b4db-87ff78128323" width = "200"> | <img src="https://github.com/user-attachments/assets/58cf6da6-e245-415e-92e7-dc1f46583cfc" width="200"> |
+| <img src="https://github.com/user-attachments/assets/31809b81-7de2-4381-b5fc-5c9714972211" width="200"> | <img src="https://github.com/user-attachments/assets/59cfbe8e-7e3b-437f-81f7-25eb50ccdd7d" width="200"> | <img src="https://github.com/user-attachments/assets/3d864ee8-555f-4ded-b4db-87ff78128323" width="200"> | <img src="https://github.com/user-attachments/assets/58cf6da6-e245-415e-92e7-dc1f46583cfc" width="200"> |
 
 ### 4) Speak and verify events
 
@@ -107,11 +125,13 @@ Start speaking, you'll see real-time transcript on [webhook.site](https://webhoo
 
 ### In this repo
 
-- [omi device](https://github.com/BasedHardware/omi/tree/main/omi)
-- [omi glass](https://github.com/BasedHardware/omi/tree/main/omiGlass)
-- [omi app](https://github.com/BasedHardware/omi/tree/main/app)
-- [ai personas (web)](https://github.com/BasedHardware/omi/tree/main/web/personas-open-source)
-- [SDKs](./sdks)
+| Component | Purpose |
+| --- | --- |
+| [omi device](https://github.com/BasedHardware/omi/tree/main/omi) | Omi hardware + firmware |
+| [omi glass](https://github.com/BasedHardware/omi/tree/main/omiGlass) | Omi Glass hardware + firmware |
+| [omi app](https://github.com/BasedHardware/omi/tree/main/app) | Flutter companion application |
+| [ai personas (web)](https://github.com/BasedHardware/omi/tree/main/web/personas-open-source) | Personas web app |
+| [SDKs](./sdks) | Python, React Native, and Swift SDKs |
 
 Note: older references may mention `personas-open-source` at repository root; in this repository it is currently under `web/personas-open-source`.
 
@@ -128,8 +148,9 @@ Note: older references may mention `personas-open-source` at repository root; in
 ├── plugins/                 # Integrations/apps/plugins
 ├── sdks/                    # python / react-native / swift
 ├── web/frontend/            # Main Next.js frontend
-├── web/personas-open-source/# Personas web app
-└── scripts/                 # tooling (format hooks, OTA helper)
+├── web/personas-open-source/ # Personas web app
+├── scripts/                 # tooling (format hooks, OTA helper)
+└── i18n/                    # Multilingual content and translations
 ```
 
 ## Prerequisites
@@ -147,6 +168,11 @@ Use the requirements relevant to your target component.
 | `ffmpeg` + `opus` | backend/audio workflows |
 | Docker (optional) | MCP/web deployments |
 | Google Cloud + Firebase | backend/app workflows |
+
+### Assumptions for setup
+
+- Some commands rely on external credentials (Firebase, OpenAI/Deepgram/API providers), which you typically configure per component using its `.env` template. See component READMEs if values are missing from local docs.
+- If you only need one surface, install/build only that component to keep iteration fast.
 
 ## Installation
 
@@ -312,7 +338,7 @@ This section reflects current repository signals and may evolve:
 - [Install firmware](https://docs.omi.me/doc/get_started/Flash_device/)
 - [Create your own app in 1 minute](https://docs.omi.me/doc/developer/apps/Introduction)
 
-## Contributions
+## Contribution
 
 - Check out our [contributions guide](https://docs.omi.me/doc/developer/Contribution/).
 - Earn from contributing! Check the [paid bounties 🤑](https://omi.me/bounties).
@@ -320,7 +346,13 @@ This section reflects current repository signals and may evolve:
 - Join the [Discord](http://discord.omi.me).
 - Build your own [Plugins/Integrations](https://docs.omi.me/doc/developer/apps/Introduction).
 
-## Support and Community
+## ❤️ Support
+
+| Donate | PayPal | Stripe |
+| --- | --- | --- |
+| [![Donate](https://camo.githubusercontent.com/24a4914f0b42c6f435f9e101621f1e52535b02c225764b2f6cc99416926004b7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d4c617a79696e674172742d3045413545393f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f2d6669266c6f676f436f6c6f723d7768697465)](https://chat.lazying.art/donate) | [![PayPal](https://camo.githubusercontent.com/d0f57e8b016517a4b06961b24d0ca87d62fdba16e18bbdb6aba28e978dc0ea21/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50617950616c2d526f6e677a686f754368656e2d3030343537433f7374796c653d666f722d7468652d6261646765266c6f676f3d70617970616c266c6f676f436f6c6f723d7768697465)](https://paypal.me/RongzhouChen) | [![Stripe](https://camo.githubusercontent.com/1152dfe04b6943afe3a8d2953676749603fb9f95e24088c92c97a01a897b4942/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374726970652d446f6e6174652d3633354246463f7374796c653d666f722d7468652d6261646765266c6f676f3d737472697065266c6f676f436f6c6f723d7768697465)](https://buy.stripe.com/aFadR8gIaflgfQV6T4fw400) |
+
+## Contact & Community
 
 - Main site: [omi.me](https://omi.me/)
 - Downloads: [omi.me/download](https://omi.me/download)
