@@ -1,4 +1,4 @@
-[English](README.md) · [العربية](i18n/README.ar.md) · [Español](i18n/README.es.md) · [Français](i18n/README.fr.md) · [日本語](i18n/README.ja.md) · [한국어](i18n/README.ko.md) · [Tiếng Việt](i18n/README.vi.md) · [中文 (简体)](i18n/README.zh-Hans.md) · [中文（繁體）](i18n/README.zh-Hant.md) · [Deutsch](i18n/README.de.md) · [Русский](i18n/README.ru.md)
+[English](../README.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Tiếng Việt](README.vi.md) · [中文 (简体)](README.zh-Hans.md) · [中文（繁體）](README.zh-Hant.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
 
 <p align="center">
@@ -9,7 +9,7 @@
 
 # **omi**
 
-Meet Omi, the world’s leading open-source AI wearable that captures conversations, gives summaries, action items and does actions for you. Simply connect Omi to your mobile device and enjoy automatic, high-quality transcriptions of meetings, chats, and voice memos wherever you are.
+Omi를 만나보세요. 대화를 기록하고, 요약과 액션 아이템을 제공하며, 실제 작업까지 수행해 주는 세계적인 오픈소스 AI 웨어러블입니다. Omi를 모바일 기기에 연결하면 어디서든 회의, 채팅, 음성 메모를 자동으로 고품질 전사로 받아볼 수 있습니다.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/834d3fdb-31b5-4f22-ae35-da3d2b9a8f59" alt="Omi" width="49%" />
@@ -54,58 +54,58 @@ Meet Omi, the world’s leading open-source AI wearable that captures conversati
 
 ## Overview
 
-This repository is the open-source Omi ecosystem monorepo.
+이 저장소는 오픈소스 Omi 생태계 모노레포입니다.
 
 | Includes | Details |
 | --- | --- |
-| Hardware/Firmware | Omi wearable firmware + hardware assets |
-| Omi Glass | Omi Glass firmware/hardware/app |
-| Mobile | Flutter companion app |
-| Backend | FastAPI backend services |
-| Web | Main Omi frontend + Personas |
-| Ecosystem | Plugins/integrations ecosystem |
+| Hardware/Firmware | Omi 웨어러블 펌웨어 + 하드웨어 에셋 |
+| Omi Glass | Omi Glass 펌웨어/하드웨어/앱 |
+| Mobile | Flutter 컴패니언 앱 |
+| Backend | FastAPI 백엔드 서비스 |
+| Web | 메인 Omi 프론트엔드 + Personas |
+| Ecosystem | 플러그인/통합 생태계 |
 | SDKs | Python, React Native, Swift |
-| Agent Infra | MCP server |
-| Docs | Documentation source |
+| Agent Infra | MCP 서버 |
+| Docs | 문서 소스 |
 
-The root README quick-start is intentionally end-user/developer-onboarding focused. Full component-specific setup lives in each subproject README and the Omi docs.
+루트 README의 빠른 시작은 최종 사용자/개발자 온보딩에 초점을 맞추고 있습니다. 컴포넌트별 상세 설정은 각 하위 프로젝트의 README와 Omi 문서를 참고하세요.
 
 ## Features
 
-- ⚡ Real-time AI audio processing and transcription flows
-- 🔋 Low-power Bluetooth wearable device workflows
-- 🧩 Open-source software stack across firmware, apps, backend, web, and SDKs
-- 🎙️ Wearable-first UX for meetings, chats, and voice memos
-- 🔗 Webhook/app ecosystem for triggering custom actions
-- 🛠️ Plugin/integration architecture for extending capabilities
+- ⚡ 실시간 AI 오디오 처리 및 전사 플로우
+- 🔋 저전력 Bluetooth 웨어러블 디바이스 워크플로
+- 🧩 펌웨어, 앱, 백엔드, 웹, SDK 전반을 아우르는 오픈소스 소프트웨어 스택
+- 🎙️ 회의, 채팅, 음성 메모에 최적화된 웨어러블 중심 UX
+- 🔗 커스텀 액션 트리거를 위한 웹훅/앱 생태계
+- 🛠️ 기능 확장을 위한 플러그인/통합 아키텍처
 
 ## Quick Start (2 min)
 
-### 1) Download omi App
+### 1) omi App 다운로드
 
 [<img src='https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg' alt='Get it on Google Play' height="50px" width="180px">](https://play.google.com/store/apps/details?id=com.friend.ios)
 [<img src='https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg' alt="Download on the App Store" height="50px" width="180px">](https://apps.apple.com/us/app/friend-ai-wearable/id6502156163)
 [<img src='https://github.com/user-attachments/assets/59c47ec7-3da0-47d7-be2f-7467e4189499' alt="Download MacOS app" height="50px" width="180px">](https://apps.apple.com/us/app/omi-ai-smart-meeting-notes/id6502156163)
 
-### 2) Create a webhook
+### 2) 웹훅 만들기
 
-Create webhook using [webhook.site](https://webhook.site) and copy this URL.
+[webhook.site](https://webhook.site)에서 웹훅을 생성하고 해당 URL을 복사하세요.
 
 <img src="https://github.com/user-attachments/assets/083a6ec4-4694-4c7a-843a-4a1a0c254453" width="500">
 
-### 3) In omi App
+### 3) omi App에서 설정
 
 | Explore => Create an App                                                                                  | Select Capability                                                                                       | Paste Webhook URL                                                                                         | Install App                                                                                             |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | <img src="https://github.com/user-attachments/assets/31809b81-7de2-4381-b5fc-5c9714972211" width="200"> | <img src="https://github.com/user-attachments/assets/59cfbe8e-7e3b-437f-81f7-25eb50ccdd7d" width="200"> | <img src="https://github.com/user-attachments/assets/3d864ee8-555f-4ded-b4db-87ff78128323" width = "200"> | <img src="https://github.com/user-attachments/assets/58cf6da6-e245-415e-92e7-dc1f46583cfc" width="200"> |
 
-### 4) Speak and verify events
+### 4) 말하고 이벤트 확인하기
 
-Start speaking, you'll see real-time transcript on [webhook.site](https://webhook.site).
+말하기를 시작하면 [webhook.site](https://webhook.site)에서 실시간 전사 결과를 확인할 수 있습니다.
 
 ## Project Structure
 
-### In this repo
+### 이 저장소에 포함된 항목
 
 - [omi device](https://github.com/BasedHardware/omi/tree/main/omi)
 - [omi glass](https://github.com/BasedHardware/omi/tree/main/omiGlass)
@@ -113,9 +113,9 @@ Start speaking, you'll see real-time transcript on [webhook.site](https://webhoo
 - [ai personas (web)](https://github.com/BasedHardware/omi/tree/main/web/personas-open-source)
 - [SDKs](./sdks)
 
-Note: older references may mention `personas-open-source` at repository root; in this repository it is currently under `web/personas-open-source`.
+참고: 과거 문서에서는 `personas-open-source`가 저장소 루트에 있다고 언급할 수 있습니다. 현재 이 저장소에서는 `web/personas-open-source` 아래에 있습니다.
 
-### High-level map
+### 상위 구조 맵
 
 ```text
 .
@@ -134,25 +134,25 @@ Note: older references may mention `personas-open-source` at repository root; in
 
 ## Prerequisites
 
-Use the requirements relevant to your target component.
+대상 컴포넌트에 맞는 요구 사항만 준비하세요.
 
 | Tooling | Used for |
 | --- | --- |
-| Git | Source control |
-| Node.js 18+ and npm | web, personas, some plugin workflows |
+| Git | 소스 제어 |
+| Node.js 18+ and npm | web, personas, 일부 플러그인 워크플로 |
 | Python 3.10+ | backend, MCP, Python SDK |
-| Flutter SDK | mobile app |
-| Xcode/CocoaPods | iOS development |
-| Android Studio + Android SDK | Android development |
-| `ffmpeg` + `opus` | backend/audio workflows |
-| Docker (optional) | MCP/web deployments |
-| Google Cloud + Firebase | backend/app workflows |
+| Flutter SDK | 모바일 앱 |
+| Xcode/CocoaPods | iOS 개발 |
+| Android Studio + Android SDK | Android 개발 |
+| `ffmpeg` + `opus` | backend/audio 워크플로 |
+| Docker (optional) | MCP/web 배포 |
+| Google Cloud + Firebase | backend/app 워크플로 |
 
 ## Installation
 
-Because this is a monorepo, install per component.
+모노레포이므로 컴포넌트별로 설치합니다.
 
-### Clone repository
+### 저장소 클론
 
 ```bash
 git clone https://github.com/BasedHardware/omi.git
@@ -213,45 +213,45 @@ cd ../react-native && npm install
 
 ## Usage
 
-### End-user app flow
+### 최종 사용자 앱 흐름
 
-1. Install the Omi app from the store links above.
-2. Pair/use your Omi device.
-3. Create an app via the webhook quick-start flow.
-4. Speak and observe real-time transcript events at your webhook endpoint.
+1. 위 스토어 링크에서 Omi 앱을 설치합니다.
+2. Omi 디바이스를 페어링하고 사용합니다.
+3. 웹훅 빠른 시작 흐름을 통해 앱을 생성합니다.
+4. 말하고 웹훅 엔드포인트에서 실시간 전사 이벤트를 확인합니다.
 
-### Local backend with app
+### 앱과 함께 로컬 백엔드 사용
 
-1. Start backend locally on port `8000`.
-2. Expose local backend via ngrok static domain.
-3. Set app `BASE_API_URL` to your ngrok URL.
-4. Use Omi app against your local backend.
+1. 로컬에서 `8000` 포트로 백엔드를 실행합니다.
+2. ngrok 정적 도메인으로 로컬 백엔드를 노출합니다.
+3. 앱의 `BASE_API_URL`을 ngrok URL로 설정합니다.
+4. 로컬 백엔드에 연결된 Omi 앱을 사용합니다.
 
-### SDK workflows
+### SDK 워크플로
 
-- Python SDK: scan for BLE devices with `omi-scan`, decode Opus packets, and transcribe via Deepgram.
-- React Native SDK: connect, stream audio bytes, inspect codec/battery.
-- Swift SDK (`omi-lib`): scan/connect/transcribe using `OmiManager` APIs.
+- Python SDK: `omi-scan`으로 BLE 디바이스를 스캔하고, Opus 패킷을 디코드한 뒤, Deepgram으로 전사합니다.
+- React Native SDK: 연결 후 오디오 바이트를 스트리밍하고 코덱/배터리 정보를 확인합니다.
+- Swift SDK (`omi-lib`): `OmiManager` API를 사용해 스캔/연결/전사를 수행합니다.
 
 ## Configuration
 
-Configuration is distributed by component. Use each subproject template/readme as source of truth.
+설정은 컴포넌트별로 분산되어 있습니다. 각 하위 프로젝트의 템플릿/README를 기준으로 확인하세요.
 
-- `backend/.env.template` -> backend API keys/infrastructure config
-- `web/frontend/.env.template` -> web frontend env vars
-- `app` environment values -> mobile app runtime configuration
-- `mcp` env vars -> `OMI_API_KEY` and optional `OMI_API_BASE_URL`
-- SDK-specific keys:
+- `backend/.env.template` -> backend API 키/인프라 설정
+- `web/frontend/.env.template` -> web frontend 환경 변수
+- `app` environment values -> 모바일 앱 런타임 설정
+- `mcp` env vars -> `OMI_API_KEY` 및 선택적 `OMI_API_BASE_URL`
+- SDK별 키:
   - Python SDK uses `DEEPGRAM_API_KEY`
   - Personas uses Firebase/OpenRouter/RapidAPI/Mixpanel env vars
 
-If you are unsure which variables are required, preserve defaults and follow the specific README in that component before removing/changing values.
+필수 변수 판단이 어렵다면 기본값을 유지하고, 값을 삭제/변경하기 전에 해당 컴포넌트의 README를 먼저 따르세요.
 
 ## Examples
 
-### Webhook quick-start (from root flow)
+### 웹훅 빠른 시작(루트 플로우)
 
-Use [webhook.site](https://webhook.site), install your custom app in Omi, then verify transcript events appear in real time.
+[webhook.site](https://webhook.site)를 사용해 커스텀 앱을 Omi에 설치한 뒤, 전사 이벤트가 실시간으로 표시되는지 확인하세요.
 
 ### Backend run command
 
@@ -276,32 +276,32 @@ omi-scan
 
 ## Development Notes
 
-- CI/CD and deployment automation are configured in:
+- CI/CD 및 배포 자동화는 다음에 구성되어 있습니다:
   - `.github/workflows/`
   - `codemagic.yaml`
-- Root `scripts/pre-commit` formats staged files for:
-  - Dart in `app/`
-  - Python in `backend/`
-  - C/C++ in `omi/` and `omiGlass/`
-- `Package.swift` at repository root publishes Swift package `omi-lib` from `sdks/swift`.
-- `i18n/` directory exists and is reserved for multilingual README/content variants.
+- 루트 `scripts/pre-commit`은 다음 경로의 staged 파일 포맷팅을 수행합니다:
+  - `app/`의 Dart
+  - `backend/`의 Python
+  - `omi/` 및 `omiGlass/`의 C/C++
+- 저장소 루트의 `Package.swift`는 `sdks/swift`의 Swift 패키지 `omi-lib`를 배포합니다.
+- `i18n/` 디렉터리는 다국어 README/콘텐츠 변형을 위해 존재하며 예약되어 있습니다.
 
 ## Troubleshooting
 
-- Backend model/network issue on local setup: if you hit the known SSL download issue, apply the `ssl` workaround documented in `backend/README.md` and retry.
-- App cannot reach local backend: verify ngrok domain is running and `BASE_API_URL` points to that exact public URL.
-- BLE discovery issues: confirm platform Bluetooth permissions are granted (Terminal/Xcode/Android app as applicable).
-- Path mismatch in older docs: some legacy docs/reference text may show outdated paths (for example `personas-open-source` root path or `omi/OmiGlass` casing). In this repo use current directory layout shown above.
+- 로컬 설정에서 백엔드 모델/네트워크 문제가 발생하는 경우: 알려진 SSL 다운로드 이슈가 나타나면 `backend/README.md`에 문서화된 `ssl` 우회 방법을 적용한 뒤 다시 시도하세요.
+- 앱이 로컬 백엔드에 연결되지 않는 경우: ngrok 도메인이 실행 중인지, 그리고 `BASE_API_URL`이 해당 공개 URL과 정확히 일치하는지 확인하세요.
+- BLE 검색 문제가 있는 경우: 플랫폼별 Bluetooth 권한(Terminal/Xcode/Android 앱)을 부여했는지 확인하세요.
+- 오래된 문서의 경로 불일치: 일부 레거시 문서/참조 텍스트에는 구식 경로(예: `personas-open-source` 루트 경로, `omi/OmiGlass` 대소문자)가 표시될 수 있습니다. 이 저장소에서는 위에 제시된 현재 디렉터리 레이아웃을 기준으로 사용하세요.
 
 ## Roadmap
 
-This section reflects current repository signals and may evolve:
+이 섹션은 현재 저장소 신호를 반영하며 향후 변경될 수 있습니다:
 
-- Continue improving firmware/hardware workflows for Omi and OmiGlass
-- Expand app/plugin ecosystem and developer tooling
-- Improve web experiences for memories/apps/personas
-- Strengthen MCP + SDK integrations for external agent ecosystems
-- Add and maintain multilingual README variants in `i18n/`
+- Omi 및 OmiGlass의 펌웨어/하드웨어 워크플로 지속 개선
+- 앱/플러그인 생태계와 개발자 도구 확장
+- memories/apps/personas를 위한 웹 경험 개선
+- 외부 에이전트 생태계를 위한 MCP + SDK 통합 강화
+- `i18n/`의 다국어 README 변형 추가 및 유지
 
 ## Documentation
 
@@ -314,11 +314,11 @@ This section reflects current repository signals and may evolve:
 
 ## Contributions
 
-- Check out our [contributions guide](https://docs.omi.me/doc/developer/Contribution/).
-- Earn from contributing! Check the [paid bounties 🤑](https://omi.me/bounties).
-- Check out the [current issues](https://github.com/BasedHardware/Omi/issues).
-- Join the [Discord](http://discord.omi.me).
-- Build your own [Plugins/Integrations](https://docs.omi.me/doc/developer/apps/Introduction).
+- [contributions guide](https://docs.omi.me/doc/developer/Contribution/)를 확인하세요.
+- 기여로 보상을 받을 수 있습니다. [paid bounties 🤑](https://omi.me/bounties)를 확인하세요.
+- [current issues](https://github.com/BasedHardware/Omi/issues)를 확인하세요.
+- [Discord](http://discord.omi.me)에 참여하세요.
+- 직접 [Plugins/Integrations](https://docs.omi.me/doc/developer/apps/Introduction)를 만들어보세요.
 
 ## Support and Community
 
@@ -333,4 +333,4 @@ This section reflects current repository signals and may evolve:
 
 ## License
 
-Omi is available under <a href="https://github.com/BasedHardware/omi/blob/main/LICENSE">MIT License</a>
+Omi는 <a href="https://github.com/BasedHardware/omi/blob/main/LICENSE">MIT License</a>로 제공됩니다.
